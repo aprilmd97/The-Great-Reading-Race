@@ -1,0 +1,48 @@
+
+.list-overflow-container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar{ display: none;}
+
+.list-overflow-container ul {
+  margin: 5px;
+}
+
+
+
+.list-overflow-container li {
+  background-color: transparent;
+  text-align: center;
+  display: inline-block;
+
+}
+
+
+.list-overflow-container li img {
+	width: 300px;
+  height: 300px;
+  display: inline-block;
+  border-radius: 15%;
+}
+
+.list-overflow-container li * {
+  cursor: pointer;
+}
+
+.list-overflow-container li a {
+  color: #ac0909;
+  margin: 5px;
+  
+}
+
+.list-overflow-container li:first-child {
+  border-top: none;
+}
+
+.list-overflow-container li:last-child {
+  border-bottom: none;
+}
